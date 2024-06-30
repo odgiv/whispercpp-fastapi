@@ -15,7 +15,7 @@ app.add_middleware(
     expose_headers=["Content-Disposition"],
 )
 
-w = Whisper('tiny')
+w = Whisper('medium')
 UPLOAD_DIR="/tmp"
 if not os.path.exists(UPLOAD_DIR):
     os.makedirs(UPLOAD_DIR)

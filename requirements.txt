@@ -19,4 +19,4 @@ starlette==0.27.0
 typing_extensions==4.8.0
 urllib3==2.0.5
 uvicorn==0.23.2
-whispercpp @ git+https://github.com/stlukey/whispercpp.py@7af678159c29edb3bc2a51a72665073d58f2352f
+whispercpp @ git+https://github.com/stlukey/whispercpp.py
